@@ -17,13 +17,16 @@ dependencies:
   - h5py
 
   # ASE & GPAW
-  - ase>=3.25.0
-  - gpaw>=25.1.0
   - libxc>=5.1.7
   - fftw
   - openblas
   - mpi4py
   - openmpi
+
+  # GNU compilers 
+  - gcc
+  - gxx
+  - gfortran
 
   # Jupyter support
   - jupyterlab
@@ -38,6 +41,8 @@ dependencies:
   - pip:
       #- qiskit
       #- qiskit-machine-learning
+      - gpaw==25.1.0
+      - ase==3.25.0
       - matplotlib
       - mendeleev
       - pymatgen
