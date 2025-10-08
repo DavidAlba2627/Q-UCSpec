@@ -78,8 +78,14 @@ Mentees will:
 
 ### Reports - Month 1:
 
-- Mentees successfully installed gpaw open-source software with all its dependencies on Mac intel, linux and on Windows (WLS) operating systems
-- Mentees are now expected to run **sim_master** file to ensure we have no debugging issues (See figure below for guide)
+- Mentees have successfully installed GPAW and all dependencies across macOS (Intel), Linux, and Windows (WSL) environments.
+- As part of the warm-up tasks, mentees are now expected to run the sim_master.py file (run all cells) to ensure there are no debugging or dependency issues.
+- If any errors occur:
+  - Take a screenshot of the terminal or error output.
+  - Rename your image file using underscores (bug_insert_your_name).
+  - Push the image to the /images folder in the repository.
+  - I’ll review and identify the issue from there.
 
-
-![](/Users/denniswayo/Downloads/Screenshot 2025-10-08 at 18.32.50.png)
+- If no errors occur; please commit three days straight to allow it to complete simulation.
+  
+  ![please check for bugs](images/nobug_dennis.png)
