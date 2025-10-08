@@ -79,7 +79,7 @@ Mentees will:
 ### Reports - Month 1:
 
 - Mentees have successfully installed GPAW and all dependencies across macOS (Intel), Linux, and Windows (WSL) environments.
-- As part of the warm-up tasks, mentees are now expected to run the sim_master.py file (run all cells) to ensure there are no debugging or dependency issues.
+- As part of the warm-up tasks, mentees are now expected to run the sim_master.ipynb file (run all cells) to ensure there are no debugging or dependency issues.
 - If any errors occur:
   - Take a screenshot of the terminal or error output.
   - Rename your image file using underscores (bug_insert_your_name).
