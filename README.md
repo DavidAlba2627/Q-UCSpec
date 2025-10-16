@@ -29,29 +29,34 @@ Q-UCSpec/
 
 ---
 ### ⚙️ Installation & Setup
+
+#### Clone the repository
 ```python
-# Clone the repository
 git clone https://github.com/DennisWayo/Q-UCSpec.git
 cd Q-UCSpec
+```
 
-# (Option A) macOS users
+#### (A) macOS users
+```python
 conda env create -f env-gpaw-mac.yml
 conda activate gpaw-tddft-legacy
+```
 
-# (Option B) Windows users
-conda env create -f env-gpaw-win.yml
-conda activate gpaw-tddft-legacy
+#### (B) Windows users
+gpaw does not have a valid 25.1.0 release for Windows. One simple and efficient way is to use WSL and Ubuntu.
+For detailed installation instructions, please refer to [Installation & Setup for Windows Users](WSL_setup.md).
 
-## (Option C) Windows users
+#### (C) Linux users
+```python
 conda env create -f env-gpaw-linux.yml
 conda activate gpaw-tddft-legacy
+```
 
 # Verify installation
 python -c "import gpaw, ase, qiskit; print('YES, Environment ready!')"
 
 # Test installation
 python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready')"
-```
 - For gpaw dzp-PAW/basis files: applicable to all OS
 ```bash
 import os
