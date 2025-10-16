@@ -52,12 +52,17 @@ conda env create -f env-gpaw-linux.yml
 conda activate gpaw-tddft-legacy
 ```
 
-# Verify installation
+#### Verify installation
+```python
 python -c "import gpaw, ase, qiskit; print('YES, Environment ready!')"
+```
 
-# Test installation
+#### Test installation
+```python
 python -c "import gpaw; import ase; import qiskit; print('YES! Environment ready')"
-- For gpaw dzp-PAW/basis files: applicable to all OS
+```
+
+- For gpaw dzp-PAW/basis files: (applicable to all OS)
 ```bash
 import os
 default_path = os.path.expanduser("~/gpaw-setups-24.11.0")
