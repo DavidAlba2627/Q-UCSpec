@@ -71,6 +71,7 @@ events.out.tfevents*
 !requirements.txt
 
 # === Results to KEEP ===
+!data/*.csv
 !docs/*.pdf               # project documentation
 !spectra/*.pdf            # spectra results
 !feature/*.csv            # QML features
