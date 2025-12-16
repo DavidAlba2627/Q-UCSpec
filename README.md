@@ -6,7 +6,7 @@
 **Q-UCSpec** is a QAMP 2025 project that integrates **first-principles Linear Response (Lr) Time-Dependent Density Functional Theory (TDDFT)** simulations with **Quantum Machine Learning (QML)** to explore the optical spectra of **photonic upconversion materials**.  
 
 The project focuses on:
-- Generating TDDFT absorption spectra for host and doped systems (CaF₂ + Ca₃F:Er clusters).  
+- Generating TDDFT absorption spectra for host and doped systems (CaF₂ + Ca₂F:Er clusters).  
 - Extracting spectral descriptors (first moment, variance, peak energy, spectral area).  
 - Encoding these features into quantum feature maps with Qiskit.  
 - Benchmarking QSVM / EstimatorQNN against classical ML models.
