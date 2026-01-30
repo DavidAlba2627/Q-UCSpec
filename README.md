@@ -9,7 +9,7 @@ The project focuses on:
 - Generating TDDFT absorption spectra for host and doped systems (CaF₂ + Ca₂F:Er clusters).  
 - Extracting spectral descriptors (first moment, variance, peak energy, spectral area).  
 - Encoding these features into quantum feature maps with Qiskit.  
-- Benchmarking QSVM / EstimatorQNN against classical ML models.
+- Benchmarking QSVM / QNN against classical ML models.
 
 This project is part of the **Qiskit Advocate Mentorship Program (QAMP) 2025**.  
 
@@ -97,14 +97,16 @@ Mentees will:
 
 ### Reports - Month 1:
 
-- Mentees have successfully installed GPAW and all dependencies across macOS (Intel), Linux, and Windows (WSL+Ubuntu) environments.
-- As part of the warm-up tasks, mentees are now expected to run the sim_master.ipynb file (run all cells) to ensure there are no debugging or dependency issues.
-- If any errors occur:
-  - Take a screenshot of the terminal or error output.
-  - Rename your image file using underscores (bug_insert_your_name).
-  - Push the image to the /images folder in the repository.
-  - I’ll review and identify the issue from there.
+- Successfully installed GPAW and all dependencies across macOS (Intel), Linux, and Windows (WSL+Ubuntu) environments.
+- Successfully excecuted the sim_master.ipynb file for Lr-TDDFT calculations.
 
-- If no errors occur; please commit three days straight to allow it to complete simulation.
-  
-  ![please check for bugs](images/nobug_dennis.png)
+### Reports - Month 2:
+
+- Feature engineering, including feature selection and transformation.
+- Successfully implemented SVM, QSVM, QNN, and VQC models to distinguish CaF₂ and Ca₂F:Er systems.
+
+### Reports - Month 3:
+
+- Successfully implemented a hybrid QNN architecture.
+- Successfully implemented QSVM on a noisy simulator.
+- Executed QSVM on IBM quantum hardware (`ibm_fez` quantum processor).
