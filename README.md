@@ -9,7 +9,7 @@
 
 ---
 
-**Q-UCSpec** is a QAMP 2025 project that integrates **first-principles Linear Response (Lr) Time-Dependent Density Functional Theory (TDDFT)** simulations with **Quantum Machine Learning (QML)** to explore the optical spectra of **photonic upconversion materials**.  
+**Q-UCSpec** is an IBM QAMP 2025 project that integrates first-principles Linear Response (Lr) Time-Dependent Density Functional Theory (TDDFT) simulations with Quantum Machine Learning (QML) to explore the optical spectra of photonic upconversion materials.  
 
 The project focuses on:
 - Generating TDDFT absorption spectra for host and doped systems (CaF₂ + Ca₂F:Er clusters).  
@@ -81,25 +81,31 @@ print(f"Using GPAW setup path: {os.environ['GPAW_SETUP_PATH']}")
 
 
 ### Mentorship
-Mentor: [Dennis Wayo](https://github.com/DennisWayo)
+Mentor: 
+- [Dennis Wayo](https://github.com/DennisWayo)
 
-QAMP 2025 Project: Q-UCSpec
+QAMP 2025/2026 Project Mentees: Q-UCSpec
 
-Mentees: [DavidAlba2627](https://github.com/DavidAlba2627),  [keremyurtseven](https://github.com/keremyurtseven), [Alireza Alipour](https://github.com/AlirezaAlipour-ghb),  [GHOST-Q1](https://github.com/GHOST-Q1),  [DreamzUpAbove](https://github.com/DreamzUpAbove), [Reema Alzaid](https://github.com/ReemaAlzaid), [Krishan Sharma](https://github.com/Krishan019).
+- [DavidAlba2627](https://github.com/DavidAlba2627),
+- [keremyurtseven](https://github.com/keremyurtseven),
+- [Alireza Alipour](https://github.com/AlirezaAlipour-ghb),
+- [GHOST-Q1](https://github.com/GHOST-Q1),
+- [DreamzUpAbove](https://github.com/DreamzUpAbove),
+- [Krishan Sharma](https://github.com/Krishan019).
 
 ```bash
 Mentees will:
-	•	Learn lr-TDDFT workflow with GPAW + ASE.
-	•	Run simulations of photonic upconversion clusters.
-	•	Apply QML with Qiskit to spectral datasets.
-	•	Contribute code, documentation, and benchmarking analysis.
+- Learn lr-TDDFT workflow with GPAW + ASE.
+- Run simulations of photonic upconversion clusters.
+- Apply QML with Qiskit to spectral datasets.
+- Contribute code, documentation, and benchmarking analysis.
 ```
 
 ### Acknowledgements
-	•	Qiskit Advocate Mentorship Program (QAMP) @qiskit-advocate @IBM
-	•	ASE + GPAW developers @gpaw @ase
-	•	Qiskit Machine Learning team
-	•	Research inspiration: Photonic upconversion in CaF₂:Er system
+- Qiskit Advocate Mentorship Program (QAMP) @qiskit-advocate @IBM
+- ASE + GPAW developers @gpaw @ase
+- Qiskit Machine Learning team
+- Research inspiration: Photonic upconversion in CaF₂:Er system
 
 ### Reports - Month 1:
 
@@ -117,3 +123,18 @@ Mentees will:
 - Successfully implemented QSVM on a noisy simulator.
 - Executed QSVM on IBM quantum hardware (`ibm_fez` quantum processor).
 - Successfully completed the manuscript and uploaded the project preprint to [arXiv](https://arxiv.org/abs/2602.00525).
+
+**Cite this work**
+```bash
+@misc{bonilla2026firstprinciplesopticaldescriptorshybrid,
+      title={First-Principles Optical Descriptors and Hybrid Classical-Quantum Classification of Er-Doped CaF$_2$}, 
+      author={David Angel Alba Bonilla and Kerem Yurtseven and Krishan Sharma and Ragunath Chandrasekharan and Muhammad Khizar and Alireza Alipour and Dennis Delali Kwesi Wayo},
+      year={2026},
+      eprint={2602.00525},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2602.00525}, 
+}
+```
+
+
