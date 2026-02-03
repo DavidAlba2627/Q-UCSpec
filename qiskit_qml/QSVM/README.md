@@ -32,8 +32,7 @@ This is the **primary notebook** of the QSVM module. It presents a comprehensive
 
 #### Key Characteristics
 
-- Uses **training and test slices** to mitigate hardware execution time and cost.
-- Ensures consistent data splits across classical and quantum models for fair comparison.
+- Compares quantum and classical support vector machines.
 - Reports performance metrics such as accuracy and ROC AUC where applicable.
 
 This notebook represents the **final QSVM results** reported in the project.
@@ -71,4 +70,4 @@ All experiments are conducted in a **hybrid quantum–classical workflow**, leve
 
 ---
 
-This folder provides a focused and reproducible evaluation of **QSVM-based approaches** for quantum-enhanced materials classification.
+This folder provides a focused evaluation of **QSVM-based approaches** for quantum-enhanced materials classification.
