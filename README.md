@@ -1,7 +1,13 @@
 
 [![QAMP Project](https://img.shields.io/badge/QAMP-2025-blue)](https://qiskit.org/advocates)  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)  [![GPAW](https://img.shields.io/badge/GPAW-TDDFT-green)](https://wiki.fysik.dtu.dk/gpaw/)  [![Qiskit](https://img.shields.io/badge/Qiskit-Quantum%20ML-purple)](https://qiskit.org/)
 
-## Q-UCSpec: Integrating TDDFT Spectroscopy and Quantum Machine Learning for Photonic Upconversion Materials
+## Q-UCSpec: Integrating TDDFT Spectroscopy and Quantum Machine Learning for Photonic Upconversion Materials 
+
+![QML pipeline](images/paper_arxiv.png)
+
+**arXiv preprint: [View on arXiv](https://arxiv.org/abs/2602.00525)** 
+
+---
 
 **Q-UCSpec** is a QAMP 2025 project that integrates **first-principles Linear Response (Lr) Time-Dependent Density Functional Theory (TDDFT)** simulations with **Quantum Machine Learning (QML)** to explore the optical spectra of **photonic upconversion materials**.  
 
@@ -110,3 +116,4 @@ Mentees will:
 - Successfully implemented a hybrid QNN architecture.
 - Successfully implemented QSVM on a noisy simulator.
 - Executed QSVM on IBM quantum hardware (`ibm_fez` quantum processor).
+- Successfully completed the manuscript and uploaded the project preprint to [arXiv](https://arxiv.org/abs/2602.00525).
